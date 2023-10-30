@@ -2,12 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&family=Roboto:wght@100;300;400;500&display=swap');
 
-   
-
 *{
    margin:0px;
    padding:0px;
    box-sizing: border-box;
+   
 }
 
 body{
@@ -15,6 +14,7 @@ body{
 /*    background-image: url(/SITE-FINAL/img/fundobody.png);
    background-repeat: no-repeat; */
    overflow-x: hidden;
+   max-width: 2160px;
 }
 
 .parte1{
@@ -57,6 +57,7 @@ body{
    padding-bottom: 15px;
    padding: 20px;
 }
+
 
 .largura-carousel {
    width: 500px;
@@ -107,6 +108,9 @@ body{
    width: 100%;
    border: none;
    box-shadow: 0px 0px 30px rgba(129, 129, 129, 0.459);  
+   margin: 10;
+   padding: 0;
+   text-align: left;
 }
 
 #contato{
